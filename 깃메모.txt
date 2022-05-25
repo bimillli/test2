@@ -1,0 +1,30 @@
+<패치에러 났을경우>
+git fetch --all
+git fetch --hard origin/master
+
+git add .
+git status
+git commit -m "아무거나"
+git push origin master
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+git remote add origin repository주소
+업로드할 repository 주소 설정
+1
+<처음 레포지터리에 올릴때>
+git config --global user.name bimillli
+git config --global user.email relaxe_pf@naver.com
+git init
+git add .
+git status
+git commit -m "아무거나"
+git push origin master
+
+2
+- 다른 사람 이름&이메일 제거 -
+git config --unset --global user.name
+git config --unset --global user.email
+git config --global user.name 이름
+git config --global user.email 이메일
+​
+
+​
